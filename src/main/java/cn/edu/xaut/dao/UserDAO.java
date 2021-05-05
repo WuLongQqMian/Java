@@ -6,5 +6,7 @@ import org.springframework.stereotype.Repository;
 import cn.edu.xaut.entity.User;
 
 public interface UserDAO {
+	
 	public void addUser(User user);
+	
 }

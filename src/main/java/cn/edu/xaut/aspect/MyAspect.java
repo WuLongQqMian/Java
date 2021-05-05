@@ -19,4 +19,5 @@ public class MyAspect {
 	public void log() {
 		System.out.println("loging");
 	}
+	
 }

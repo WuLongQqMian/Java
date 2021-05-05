@@ -1,5 +1,7 @@
 package cn.edu.xaut.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -49,6 +51,11 @@ public class UserServiceImpl implements UserService {
 			throw new RuntimeException("ณ๖ดํมห");	
 		this.userDAO.addUser(wife);
 		
+	}
+
+	public List<User> getAllUsers() {
+		// TODO Auto-generated method stub
+		return userDAO.getAllUsers();
 	}
 	
 }
